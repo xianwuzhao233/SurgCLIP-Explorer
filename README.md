@@ -67,7 +67,7 @@ The baseline was verified on CPU. CUDA remains supported through PyTorch. The sh
 ### Option A: Conda environment
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/xianwuzhao233/SurgCLIP-Explorer.git
 cd SurgCLIP-Explorer
 conda env create -f environment.yml
 conda activate surgclip-explorer
@@ -76,7 +76,7 @@ conda activate surgclip-explorer
 ### Option B: Existing Python 3.10 environment
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/xianwuzhao233/SurgCLIP-Explorer.git
 cd SurgCLIP-Explorer
 python -m pip install -r requirements.txt
 ```
