@@ -1,0 +1,49 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system
+.DS_Store
+
+# Environment and credentials
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.pem
+*.key
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Generated outputs (keep empty directory markers)
+outputs/*
+!outputs/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+.cache/
+model_cache/
+
+# Dataset files
+data/
+Data/
+datasets/
+*.h5
+*.hdf5
+
+# Experiment and application artifacts
+results/
+logs/
+wandb/
+runs/
+tmp/
+temp/
+*.mp4

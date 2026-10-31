@@ -1,0 +1,8 @@
+model_name: RN50
+pretrained: openai
+device: auto
+dataset_path: ../Data/CholecSeg8k
+model_cache_dir: model_cache
+max_dataset_frames: 500
+fine_tuned_checkpoint: null
+fine_tuned_metadata: null

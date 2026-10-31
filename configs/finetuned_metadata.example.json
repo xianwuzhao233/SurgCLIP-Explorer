@@ -1,0 +1,21 @@
+{
+  "model_name": "RN50",
+  "visual_embedding_dim": 1024,
+  "target_classes": [
+    "abdominal wall",
+    "liver",
+    "gastrointestinal tract",
+    "fat",
+    "grasper",
+    "connective tissue",
+    "cystic duct",
+    "L-hook electrocautery",
+    "gallbladder",
+    "hepatic vein",
+    "liver ligament"
+  ],
+  "head": "CosineMultilabelHead",
+  "pretrained": "openai",
+  "preprocessing": "open_clip RN50/openai",
+  "decision_thresholds": null
+}
